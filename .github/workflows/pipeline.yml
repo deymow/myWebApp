@@ -18,7 +18,7 @@ jobs:
           dotnet-version: '8.0.x' # Replace with the desired .NET 8 version
          
       - name: Restore Dependencies
-        run: dotnet restore Rentway.ExpressCheckout.sln
+        run: dotnet restore myWebApp.sln
         working-directory: ${{ github.workspace }}
              
       - name: Build Project
